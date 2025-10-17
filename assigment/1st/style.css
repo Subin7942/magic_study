@@ -1,0 +1,36 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  font-family: 'Yoon 초록우산어린이 만세';
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.middleTitle {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Yoon 초록우산어린이 만세';
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.text {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: '210 에필로그';
+  font-size: 50px;
+  font-weight: normal;
+  margin: 20px;
+}
