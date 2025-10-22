@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 #header {
@@ -12,4 +13,17 @@
   text-align: center;
   font-size: 50px;
   font-weight: bold;
+}
+
+.section {
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  margin-top: 10px;
 }
