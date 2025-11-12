@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+}
+
+.logo {
+  padding: 20px;
+}
+.centerImage {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+}
+.headerLeft {
+  display: flex;
+  justify-content: start;
+}
+.headerRight {
+  display: flex;
+  justify-content: end;
+}
+.headerItem {
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 10px;
+}
+.headerIcon {
+  gap: 10px;
+}
+.header-more {
+  display: flex;
+}
+
+.text {
+  text-align: left;
+  margin: 100px auto;
+  width: 800px;
+}
+.bigText {
+  font-size: 20px;
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+.smallText {
+  font-size: 10px;
+}
+.superBigText {
+  font-size: 70px;
+}
+
+.horizonImage {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.verticalImage {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 100px;
+}
+
+.yellow {
+  background-color: rgb(255, 250, 180);
+}
+.orange {
+  color: rgb(248, 145, 19);
+}
+.blue {
+  color: rgb(27, 27, 228);
+}
+.purple {
+  color: rgb(216, 175, 255);
+}
+
+.squre {
+  width: 1000px;
+  height: 1000px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 15px;
+}
+.section {
+}
+.section p {
+  margin: 5px;
+}
+
+.block {
+  display: flex;
+  margin: 0px;
+  background-color: rgb(218, 218, 218);
+}
+.block2 {
+  display: flex;
+  margin: 0px;
+  color: #fff;
+  background-color: rgb(27, 27, 228);
+}
+.blockFlex {
+  display: flex;
+}
+.blockGap {
+  gap: 10px;
+}
+
+.footer {
+  margin: 100px;
+}
+.footerLeft {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  margin-top: 100px;
+}
